@@ -1,0 +1,7 @@
+# Test
+az --version
+
+# Create resource group
+resourcegroup="MyResourceGroup1"
+location="uksouth"
+az group create --name $resourcegroup --location
